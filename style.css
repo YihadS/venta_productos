@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+#submit_btn{
+  background: #ffbc21;
+}
+
+#page_mask {
+  display: none;
+  z-index: 992;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.profile-image-pic{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+h1, h2, h3, a{
+  font-family: 'Inter', sans-serif;
+}
+
+.cardbody-color{
+  background-color: #ebf2fa;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a{
+  text-decoration: none;
+}
+
+/*  dashboard.php */
+
+.row2{
+position: relative; left: 0px; top:0px;
+float: left;
+width:50%;
+}
+
+.section:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.buttons{
+  padding-top: 20px;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.buttons button{
+  display: block;
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#imagen{
+  height: 200px;
+  width: 200px;
+  border-radius:  50%;
+  border: 2.5px solid black;
+}
+
+table{
+  margin-top: 50px;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#pr_img{
+width: 80px;
+height: 80px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+}
+
+/**/
+
+#ventas {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#ventas td, #ventas th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#pr_img{
+width: 80px;
+height: 80px;
+}
+
+#ventas tr:nth-child(even){background-color: #f2f2f2;}
+
+#ventas tr:hover {background-color: #ddd;}
+
+#ventas th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #34E3E3;
+  color: white;
+}
+
+#cerrar{
+  background-color: #D0342C;
+  transition: 0.5s all ease-in-out;
+  color: white;
+}
+
+#cerrar:hover{
+  background-color: red;
+  transition: 0.5s all ease-in-out;
+}
+
+/**--**/
+
+.editar{
+  display: none;
+  text-align: center;
+  position: fixed;
+  padding: 25px;
+  border: 2px solid black;
+  background: white;
+  z-index: 999;
+  top: 20%;
+  left: 40%;
+}
+
+#cerrar2{
+  background-color: #D0342C;
+  transition: 0.5s all ease-in-out;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+}
+
+#aceptar{
+  background-color: green;
+  transition: 0.5s all ease-in-out;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.editar select{
+  font-size: 20px;
+}
+
+.editar button{
+  display: inline;
+  margin: 10px;
+}
+
+#cerrar2:hover{
+  background-color: red;
+  transition: 0.5s all ease-in-out;
+}
+
+.agregar{
+  display: none;
+  text-align: center;
+  position: fixed;
+  padding: 20px;
+  border: 2px solid black;
+  background: white;
+  z-index: 999;
+  top: 20%;
+  left: 35%;
+}
+
+.agregar_p input{
+  width: 80%;
+  margin: 3%;
+  padding: 2%;
+  font-size: 15px;
+  display: block;
+}
+
+.usuario{
+  display: none;
+  text-align: center;
+  position: fixed;
+  padding: 20px;
+  border: 2px solid black;
+  background: white;
+  z-index: 999;
+  top: 20%;
+  left: 35%;
+}
+
+.usuario_p input{
+  width: 80%;
+  margin: 3%;
+  padding: 2%;
+  font-size: 15px;
+  display: block;
+}
+
+#cerrar5{
+  background-color: #D0342C;
+  transition: 0.5s all ease-in-out;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+}
+
+#cerrar5:hover{
+  background-color: red;
+  transition: 0.5s all ease-in-out;
+}
+
+#cerrar3{
+  background-color: #D0342C;
+  transition: 0.5s all ease-in-out;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+}
+
+#cerrar3:hover{
+  background-color: red;
+  transition: 0.5s all ease-in-out;
+}
+
+/***/
+.vender{
+  display: none;
+  text-align: center;
+  position: fixed;
+  padding: 30px;
+  border: 2px solid black;
+  background: white;
+  z-index: 999;
+  top: 20%;
+  left: 35%;
+}
+
+.vender_p input{
+  width: 100%;
+  margin: 3%;
+  padding: 2%;
+  font-size: 15px;
+  display: block;
+}
+
+.vender_p select{
+  font-size: 20px;
+}
+
+/**/
+
+#cerrar4{
+  background-color: #D0342C;
+  transition: 0.5s all ease-in-out;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+}
+
+#cerrar4:hover{
+  background-color: red;
+  transition: 0.5s all ease-in-out;
+}
+
+.h1_ventas{
+  padding-top: 45px;
+}
+
+.botones{
+  display: block;
+  padding-top: 20px;
+}
