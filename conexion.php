@@ -71,7 +71,7 @@ if (isset($_POST['uname']) && isset($_POST['password']) ) {
 
         }else{
 
-            header("Location: index.html?error=Nombre de Usuario o Contraseña incorrecta");
+            header("Location: index.phpl?error=Nombre de Usuario o Contraseña incorrecta");
 
             exit();
 
