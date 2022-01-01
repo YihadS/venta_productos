@@ -26,13 +26,13 @@ if (isset($_POST['uname']) && isset($_POST['password']) ) {
     
     if (empty($uname)) {
 
-        header("Location: index.php?error=No puede dejar vacío el nombre");
+        header("Location: index.html?error=No puede dejar vacío el nombre");
 
         exit();
 
     }else if(empty($pass)){
 
-        header("Location: index.php?error=No puede dejar vacía la contraseña");
+        header("Location: index.html?error=No puede dejar vacía la contraseña");
 
         exit();
 
@@ -63,7 +63,7 @@ if (isset($_POST['uname']) && isset($_POST['password']) ) {
 
             }else{
 
-                header("Location: index.php?error=Nombre de Usuario o Contraseña incorrecta");
+                header("Location: index.html?error=Nombre de Usuario o Contraseña incorrecta");
 
                 exit();
 
@@ -71,7 +71,7 @@ if (isset($_POST['uname']) && isset($_POST['password']) ) {
 
         }else{
 
-            header("Location: index.php?error=Nombre de Usuario o Contraseña incorrecta");
+            header("Location: index.html?error=Nombre de Usuario o Contraseña incorrecta");
 
             exit();
 
@@ -81,7 +81,7 @@ if (isset($_POST['uname']) && isset($_POST['password']) ) {
 
 }else{
 
-    header("Location: index.php");
+    header("Location: index.html");
 
     exit();
 
