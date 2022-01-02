@@ -15,3 +15,4 @@ if (!$conn) {
     echo "La conexión ha fallado";
 
 }
+?>
