@@ -6,7 +6,7 @@ $unmae= "root";
 
 $password = "";
 
-$db_name = "sql/control_inventario";
+$db_name = "control_inventario";
 
 $conn = mysqli_connect($sname, $unmae, $password, $db_name);
 
