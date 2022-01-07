@@ -44,6 +44,10 @@
     </div>
   </div>
 
+	<div class="credenciales">
+		<h1> Usuario: admin </h1>
+		<h1> Contraseña: pass123 </h1>
+	</div>
 <script src="function.js"></script>
 </body>
 </html>
