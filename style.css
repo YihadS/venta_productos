@@ -3,7 +3,9 @@
 #submit_btn{
   background: #ffbc21;
 }
-
+.credenciales{
+text-align: center;
+}
 #page_mask {
   display: none;
   z-index: 992;
